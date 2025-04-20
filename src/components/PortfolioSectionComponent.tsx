@@ -46,8 +46,8 @@ function PortfolioSectionComponent(): React.JSX.Element {
         >
           <SectionSubtitle>Project I&apos;ve Created💼</SectionSubtitle>
           <SectionDescription>
-            I&apos;ve created a few project while i was learing about frontend
-            website development. and all of project i&apos;ll explain below
+            I&apos;ve created a few project while i was learing about Software
+            Development. and all of project i&apos;ll explain below
           </SectionDescription>
         </Flex>
 

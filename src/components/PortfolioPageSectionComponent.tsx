@@ -2,7 +2,13 @@ import * as React from "react";
 import { motion } from "framer-motion";
 import { Box, Center, Container, Flex, Grid, GridItem } from "@chakra-ui/react";
 import { BsArrowRightCircleFill } from "react-icons/bs";
-import { PortfolioCard, PrimaryButton, SectionDescription, SectionSubtitle, SectionTitle } from "@/fragments";
+import {
+  PortfolioCard,
+  PrimaryButton,
+  SectionDescription,
+  SectionSubtitle,
+  SectionTitle,
+} from "@/fragments";
 import { portfolioList } from "@/constants";
 import { fadeInTransition, staggeredContainer } from "@/utils";
 import SectionLayout from "@/layouts/SectionLayout";
@@ -36,21 +42,38 @@ function PortfolioPageSectionComponent(): React.JSX.Element {
           rowGap={{ base: 3, lg: 5 }}
         >
           <SectionSubtitle>All Project I&apos;ve Created💼</SectionSubtitle>
-          <SectionDescription>I&apos;ve created a few project while i was learing about frontend website development. and all of project i&apos;ll explain below</SectionDescription>
+          <SectionDescription>
+            I&apos;ve created a few project while i was learing about Software
+            development. and all of project i&apos;ll explain below
+          </SectionDescription>
         </Flex>
 
         {/* Portfolio Page Section Content Container */}
         <Grid
           as={motion.div}
           variants={fadeInTransition("left", "tween", 0, 1)}
-          templateColumns={{ base: "1fr", md: "repeat(2, 1fr)", lg: "repeat(3, 1fr)" }}
+          templateColumns={{
+            base: "1fr",
+            md: "repeat(2, 1fr)",
+            lg: "repeat(3, 1fr)",
+          }}
           gap={8}
           width={{ base: "90%", lg: "100%" }}
           marginX={{ base: "auto", lg: 0 }}
           marginTop={12}
         >
           {portfolioList.map(
-            ({ title, imageThumbnail, description, livePreviewURL, repositoryURL, techStack }, index): React.ReactNode => (
+            (
+              {
+                title,
+                imageThumbnail,
+                description,
+                livePreviewURL,
+                repositoryURL,
+                techStack,
+              },
+              index
+            ): React.ReactNode => (
               <GridItem
                 as={motion.div}
                 variants={fadeInTransition("up", "tween", index * 0.25, 1.1)}
