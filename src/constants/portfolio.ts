@@ -14,8 +14,8 @@ export const portfolioList: Portfolio[] = [
         logo: "/assets/svg/laravel.svg",
       },
       {
-        tech: "CSS",
-        logo: "/assets/svg/css.svg",
+        tech: "MySQL",
+        logo: "/assets/svg/mysql.svg",
       },
       {
         tech: "JavaScript",
@@ -141,6 +141,24 @@ export const portfolioList: Portfolio[] = [
       {
         tech: "c#",
         logo: "/assets/logo/cc.png",
+      },
+    ],
+  },
+  {
+    title: "Auctions",
+    imageThumbnail: "/assets/images/pro-13.png",
+    description:
+      "A web-based auction platform that enables users to create listings, place offers, and participate in competitive bidding, developed collaboratively using React.js. The project integrates the Delcom API to handle user authentication (registration and login) and manage real-time auction data efficiently.",
+    livePreviewURL: "",
+    repositoryURL: "https://github.com/delcom-itdel/pabwe2024-k7-aucations",
+    techStack: [
+      {
+        tech: "React",
+        logo: "/assets/svg/react.svg",
+      },
+      {
+        tech: "Postman",
+        logo: "/assets/logo/postman.png",
       },
     ],
   },
