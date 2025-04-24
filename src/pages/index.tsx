@@ -25,6 +25,10 @@ const ContactSectionComponent: React.ComponentType = dynamic(
   (): LoaderComponent => import("@/components/ContactSectionComponent")
 );
 
+const CertificateSectionComponent: React.ComponentType = dynamic(
+  (): LoaderComponent => import("@/components/CertificateSectionComponent")
+);
+
 export default function MainPage(): React.JSX.Element {
   return (
     <Box as="main" backgroundColor="background" id="mainContainer">
@@ -32,6 +36,7 @@ export default function MainPage(): React.JSX.Element {
       <AboutSectionComponent />
       <EducationSectionComponent />
       <ExperienceSectionComponent />
+      <CertificateSectionComponent />
       <PortfolioSectionComponent />
       <GetInTouchComponent />
       <ContactSectionComponent />

@@ -9,3 +9,4 @@ export * from "./portfolio";
 export * from "./blog";
 export * from "./blogCategory";
 export * from "./contactCard";
+export * from "./certificateList";

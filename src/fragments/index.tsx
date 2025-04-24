@@ -18,3 +18,4 @@ export { default as CategoryTag } from "./CategoryTag";
 export { default as OtherBlogCard } from "./OtherBlogCard";
 export { default as ShareToSocialMedia } from "./ShareToSocialMedia";
 export { default as AuthorSocialMedia } from "./AuthorSocialMedia";
+export { default as CertificateCard } from "./CertificateCard";

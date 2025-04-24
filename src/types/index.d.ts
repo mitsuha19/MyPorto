@@ -18,3 +18,4 @@ export * from "./author";
 export * from "./contactCard";
 export * from "./formInitialValues";
 export * from "./motion";
+export * from "./certificat";
