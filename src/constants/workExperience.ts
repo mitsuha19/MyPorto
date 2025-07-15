@@ -2,9 +2,18 @@ import type { WorkExperience } from "@/types";
 
 export const workExperienceList: WorkExperience[] = [
   {
+    jobDesk: "Mobile Engineer",
+    companyName: "PT STafbook Teknologi Asia",
+    years: "June 2025 - Present",
+    jobDescription:
+      "Develop and Maintain cross-platform mobile applications using Flutter and Dart ,Implemented RESTful API integration and Participated in code reviews and daily stand-ups as part of an Agile development team ",
+    jobStatus: "Intern",
+    techStack: ["/assets/svg/flutter.svg", "/assets/svg/git.svg"],
+  },
+  {
     jobDesk: "Student Teaching Assistant",
     companyName: "Del Institute of Technology",
-    years: "February 2024 - Present",
+    years: "February 2025 - May 2025",
     jobStatus: "Software Engineering",
     jobDescription:
       "Assisted in teaching Software Engineering by covering key concepts such as development processes, UML for specification and documentation, and guiding hands-on application of Agile methodologies, particularly Scrum, including backlog management and user story creation.",
