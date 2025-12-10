@@ -2,9 +2,22 @@ import type { WorkExperience } from "@/types";
 
 export const workExperienceList: WorkExperience[] = [
   {
+    jobDesk: "Fullstack Developer",
+    companyName: "PT Umalo Sedia Tekno",
+    years: "August 2025 - Present",
+    jobDescription:
+      "Develop and Maintain web applications using React.js for frontend and Express.js for backend, Collaborate with cross-functional teams to define, design, and ship new features, and Ensure the performance, quality, and responsiveness of applications",
+    jobStatus: "Intern",
+    techStack: [
+      "/assets/svg/react.svg",
+      "/assets/svg/express.svg",
+      "/assets/svg/git.svg",
+    ],
+  },
+  {
     jobDesk: "Mobile Engineer",
     companyName: "PT STafbook Teknologi Asia",
-    years: "June 2025 - Present",
+    years: "June 2025 - August 2025",
     jobDescription:
       "Develop and Maintain cross-platform mobile applications using Flutter and Dart ,Implemented RESTful API integration and Participated in code reviews and daily stand-ups as part of an Agile development team ",
     jobStatus: "Intern",
